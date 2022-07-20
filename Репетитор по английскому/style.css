@@ -30,7 +30,7 @@ nav{
     text-decoration: none;
 }
 .promo{
-    background: linear-gradient( rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54) ), url('/image/pexels-ivan-samkov-5676744\ 1.jpg');
+    background: linear-gradient( rgba(0, 0, 0, 0.54), rgba(0, 0, 0, 0.54) ), url('./image/pexels-ivan-samkov-5676744\ 1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 100vh;
@@ -149,11 +149,20 @@ color: #086CF9;
     padding-top: 130px;
   
 }
+.about-wrapper-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 80px;
+}
+
 
 .about-photo img{
-    max-width: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     display: block;
-    object-fit: contain;
+ 
 }
 .about-wrapper-title{
 font-size: 38px;
@@ -232,7 +241,7 @@ color: #555555;
     font-weight: 700;
     line-height: 31px;
     letter-spacing: 0em;
-    text-align: left;
+  
 
 }
 .wrapper-subtitle{
@@ -350,6 +359,10 @@ color: #555555;
     text-align: left;
 
 }
+.wrapper-event-image img{
+    width: 100%;
+    display: block;
+}
 .wrapper-event-descr{
     display: flex;
     flex-direction: row;
@@ -413,6 +426,9 @@ color: #555555;
     padding-top: 40px;
     margin: 0 auto;
     padding-bottom: 40px;
+}
+.wrapper-blog-image img{
+    width: 100%;
 }
 .wrapper-blog-card-content{
     padding: 25px;
